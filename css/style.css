@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 3.33vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    z-index: 999;
+    user-select: none;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#logo-text {
+    color: #fff;
+    font-size: 1.042vw;
+    text-decoration: none;
+}
+
+#box-logo {
+    width: 100%;
+    height: 100%;
+    padding: 0.26vw 0;
+}
+
+#logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+ul {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.833vw;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+li:hover {
+    background-color: #222;
+}
+
+.banner {
+    width: 100%;
+    height: 93.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/triangle_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    user-select: none;
+}
+
+.content {
+    text-align: center;
+}
+
+#btn-start {
+    width: 12.5vw;
+    height: 2.604vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border: 0.052vw solid #fff;
+    color: #fff;
+    font-size: 1.25vw;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 0.313vw;
+    cursor: pointer;
+}
+
+#game-icon {
+    font-size: 1.563vw;
+    margin-right: 0.521vw;
+}
+
+#btn-start:hover {
+    background-color: #fff;
+    border: none;
+    color: #000;
+}
+
+#btn-start:active {
+    position: relative;
+    top: 0.156vw;
+}
